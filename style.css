@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(to right, #eb8066, #86a8e7);
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.hero img {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    background: rgb(233, 135, 135);
+    width: 260px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* EXTRA SECTION */
+.extra {
+    text-align: center;
+    padding: 40px;
+}
+
+.extra img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 12px;
+}
+
+/* FOOTER */
+.footer {
+    background: #86a8e7;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
